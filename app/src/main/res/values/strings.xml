@@ -10,4 +10,6 @@
     <string name="menu_item_6">Item 6</string>
     <string name="titulo_1">Titulo 1</string>
     <string name="menu_item_7">Item 7</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
 </resources>
