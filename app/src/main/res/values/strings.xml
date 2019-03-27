@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NavigationDrawerDemo</string>
+    <string name="android_text">Android</string>
+    <string name="imagem_menu_lateral">Imagem menu</string>
 </resources>
