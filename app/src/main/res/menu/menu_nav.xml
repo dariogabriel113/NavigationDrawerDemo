@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_um"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_item_1" />
 
+        <item
+            android:id="@+id/nav_item_dois"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_item_2" />
+
+        <item
+            android:id="@+id/nav_item_tres"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/menu_item_3" />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/nav_item_quatro"
+            android:title="@string/menu_item_4" />
+
+        <item
+            android:id="@+id/nav_item_cinco"
+            android:title="@string/menu_item_5" />
+    </group>
+
+    <item android:title="@string/titulo_1">
+        <menu>
+            <item
+                android:id="@+id/nav_item_seis"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="@string/menu_item_6" />
+
+            <item
+                android:id="@+id/nav_item_sete"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="@string/menu_item_7" />
+        </menu>
+    </item>
 </menu>
